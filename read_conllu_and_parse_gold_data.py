@@ -3,7 +3,7 @@ def read_conllu_and_parse_gold_data(input_file, gold_data):
         for l in f:
             if not l.startswith("#"):
                 if l.strip()=="":
-                    if len(gold_data[-1])>0:
+                    if len(gold_data[-1])>0: 
                         gold_data.append([])
                 else:
                     row = l.split("\t")
