@@ -59,10 +59,15 @@ The parsers directory includes utilities for parsing and analyzing syntactic str
 
 
 **Compare Parser**: Compare syntactic annotations between different parsers.
+
 **CoNLL-U Parser**: Convert between CoNLL-U format files and text files.
+
 **Stanza Parser**: Process text data and parse syntactic structures using the Stanza library.
+
 **Trankit Parser**: Process and parse syntactic structures using the Trankit library.
+
 **Vectorize**: Utilities for vectorizing data for machine learning tasks.
+
 ### Utilities
 
 The utils directory contains additional utilities for data processing and analysis:
