@@ -57,20 +57,22 @@ pip install -r requirements.txt
 ### Parsers
 The parsers directory includes utilities for parsing and analyzing syntactic structures:
 
-Compare Parser: Compare syntactic annotations between different parsers.
-CoNLL-U Parser: Convert between CoNLL-U format files and text files.
-Stanza Parser: Process text data and parse syntactic structures using the Stanza library.
-Trankit Parser: Process and parse syntactic structures using the Trankit library.
-Utilities
+
+**Compare Parser**: Compare syntactic annotations between different parsers.
+**CoNLL-U Parser**: Convert between CoNLL-U format files and text files.
+**Stanza Parser**: Process text data and parse syntactic structures using the Stanza library.
+**Trankit Parser**: Process and parse syntactic structures using the Trankit library.
+**Vectorize**: Utilities for vectorizing data for machine learning tasks.
+### Utilities
+
 The utils directory contains additional utilities for data processing and analysis:
 
-Compare Models: Compare performance metrics of different classification models.
-Supervised Project Notebook: Jupyter notebook containing supervised learning experiments.
-Vectorize: Utilities for vectorizing data for machine learning tasks.
-Data
+**Compare Models**: Compare performance metrics of different classification models.
+
+### Data
 The data directory contains sample data files in CoNLL-U format for testing and experimentation.
 
-## Classifiers
+### Classifiers
 
 - **Support Vector Machine (SVM):**
     - The SVM classifier is implemented using scikit-learn's \`SVC\` class with a linear kernel. Training and testing data are loaded from the pickle files, preprocessed, and fed into the classifier.
@@ -86,14 +88,12 @@ The data directory contains sample data files in CoNLL-U format for testing and 
 
 - **K-Nearest Neighbors (KNN):**
     - The KNN classifier is implemented using scikit-learn's \`KNeighborsClassifier\`. It classifies samples based on the majority class among its k-nearest neighbors.
-
-## Model Comparisons
+- **## Artificial Neural Network:**
+    - An artificial neural network (ANN) model is built using Keras. It consists of multiple layers with dropout regularization and sigmoid activation functions. The model is trained using the training data and evaluated on the test data.
+- ## Model Comparisons
 
 - Performance metrics such as accuracy, precision, recall, and F1-score are computed for each classifier. Confusion matrices and ROC curves are also generated to visualize the performance.
 
-## Artificial Neural Network
-
-- An artificial neural network (ANN) model is built using Keras. It consists of multiple layers with dropout regularization and sigmoid activation functions. The model is trained using the training data and evaluated on the test data.
 
 ## Contributing
 
