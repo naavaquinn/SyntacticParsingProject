@@ -7,7 +7,7 @@ ef read_and_parse_trankit_data(trankit_files):
         with open(file, "r") as f:
             for l in f:
                 if not l.startswith("#"):
-                    if l.strip() == "":
+                    if l.strip() == "": 
                         if len(data[-1]) > 0:
                             data.append([])
                     else:
