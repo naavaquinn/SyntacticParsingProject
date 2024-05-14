@@ -45,8 +45,6 @@ cd machine-learning-classifier-comparison
 ```bash
 pip install -r requirements.txt
 
-# Machine Learning Classifier Comparison
-
 ## Usage
 
 1. **Navigate to the project directory:**
@@ -107,4 +105,3 @@ Contributions to this project are welcome. If you find any issues or have sugges
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
