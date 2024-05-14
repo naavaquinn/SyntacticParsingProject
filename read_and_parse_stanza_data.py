@@ -9,7 +9,7 @@ def read_and_parse_stanza_data(stanza_file):
                 if not l.startswith("#"):
                     if l.strip() == "":
                         if len(data[-1]) > 0:
-                            data.append([])
+                            data.append([])  
                     else:
                         row = l.split("\t")
                         if not "-" in row[0]:
