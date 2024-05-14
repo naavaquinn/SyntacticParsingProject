@@ -1,3 +1,13 @@
+def process_data_and_save_to_conllu(data, output_file):
+    # Perform part-of-speech tagging and dependency parsing
+    trankit_output = nlp_trankit.posdep(data)
+
+    # Convert Trankit output to CoNLL-U format
+    conllu_doc = trankit2conllu(trankit_output)
+
+    # Write the CoNLL-U document to a file
+    with open(output_file, "w", encoding="utf-8") as f:
+        f.write(conllu_doc)
 def read_and_parse_stanza_data(stanza_file):
     stanza_data = []
 
