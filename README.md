@@ -36,6 +36,15 @@ This project aims to compare the performance of various machine learning classif
 
 ```bash
 git clone https://github.com/Mery-e/SyntacticParsingProject.git
+2. Navigate the project directory
+
+```bash
+cd machine-learning-classifier-comparison
+3. Install the required dependencies using pip:
+
+```bash
+pip install -r requirements.txt
+
 # Machine Learning Classifier Comparison
 
 ## Usage
