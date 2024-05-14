@@ -4,7 +4,7 @@
 
 ## Overview
 
-This project aims to compare the performance of various machine learning classifiers using a dataset containing text data. The goal is to classify text samples into different categories based on their content. 
+The goal of this project is to implement a syntactic annotation reliability scorer capable of assigning reliability scores to automatically generated syntactic parses. Despite significant advances in automated parsing systems, ensuring the reliability of syntactic annotations remains an unsolved task. Assessing the reliability of a syntactic annotation offers benefits not only for syntactic parsing tasks but also for all downstream NLP tasks utilizing the generated syntactic annotations.
 
 ## Table of Contents
 
