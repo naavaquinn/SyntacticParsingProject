@@ -35,9 +35,9 @@ This project aims to compare the performance of various machine learning classif
 
 1. Clone the repository to your local machine:
 
-\`\`\`bash
+```bash
 git clone https://github.com/Mery-e/SyntacticParsingProject.git
-\`\`\`
+```
 
 2. Navigate the project directory
 
