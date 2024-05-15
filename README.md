@@ -1,6 +1,5 @@
 
 # SyntacticParsingProject
-# Machine Learning Classifier Comparison
 
 ## Overview
 
@@ -30,7 +29,10 @@ The goal of this project is to implement a syntactic annotation reliability scor
 - matplotlib
 - seaborn
 - keras
-
+- trankit
+- stanza
+- numpy
+  
 ## Installation
 
 1. Clone the repository to your local machine:
