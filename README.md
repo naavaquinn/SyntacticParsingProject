@@ -1,5 +1,5 @@
 
-# SyntacticParsingProject
+# Syntactic Parsing Project
 
 ## Overview
 
